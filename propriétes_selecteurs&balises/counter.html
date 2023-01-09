@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/favicon.ico">
+    <title>Counter</title>
+    <style>
+        ol {
+  list-style-type: none;
+  counter-reset: compteListe;
+}
+
+li::before {
+  counter-increment: compteListe;
+  content: counter(compteListe) " ";
+}
+
+.reinit {
+  counter-reset: compteListe;
+}
+        
+
+    </style>
+</head>
+<body>
+   <main>
+    <ol>
+        <li>Et de un</li>
+        <li>Et de deux</li>
+        <li>Et de trois</li>
+        <li class="reinit">Et ça repart</li>
+        <li>Et de deux</li>
+      </ol>
+   </main>
+</body>
+</html>
