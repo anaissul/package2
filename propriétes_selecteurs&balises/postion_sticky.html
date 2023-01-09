@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="img/favicon.ico">
+    <title>POSITION: STICKY</title>
+    <style>
+        body{
+            background: #000;
+        }
+        main{
+            height: 200vh;
+            display: flex;
+            margin: 0 auto;
+            width: 600px;
+            position: relative;        
+        }
+        .square{
+            width: 200px;
+            height: 200px;
+            background: #fff;
+        }
+        .square:nth-of-type(1){
+            background: rgb(0, 255, 200);
+        }
+        .square:nth-of-type(2){
+            text-transform: uppercase;
+            text-align: center;
+            color: #fff;
+            background: rgb(35, 194, 159);
+            position: sticky;
+            top: 0;
+            left: 0;
+            
+        }
+        .square:nth-of-type(3){
+            background: rgb(44, 136, 116);
+            
+        }
+        
+
+    </style>
+</head>
+<body>
+   <main>
+        <div class="square"></div>
+        <div class="square"><h1>Stycky</h1></div>
+        <div class="square"></div>
+   </main>
+</body>
+</html>

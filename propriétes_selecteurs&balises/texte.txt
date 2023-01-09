@@ -1,0 +1,26 @@
+propriétés sélecteurs et balises:
+
+
+
+
+Position: sticky
+
+en gros la position sticky sert à placer un élement dont la postion est calculé en fonction du flux html. Cependant dès l'instant ou l'on scroll plus bas que l'element, il reste à la même postion mais par rapport à la fenêtre.
+
+position calculé en fonction du flux html.
+cela n'affecte pas la postition des autres éléments
+
+
+
+
+
+Counter-reset, counter-increment & counter-set
+
+Compteur CSS
+variable dont les valeurs sont incrémentées par les règles CSS et qui permettent de savoir combien de fois elles sont utilisées.
+
+counter-reset: permet d'initialiser le compteur (création)
+counter-set: redéfinit la valeur d'un compteur sans en créer un nouveau
+counter-increment : permet d'incrémenter un compteur.
+
+

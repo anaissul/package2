@@ -1,0 +1,14 @@
+.horiz {
+    writing-mode: horizontal-tb;
+    width:50%;
+}
+
+.ver-rl {
+    writing-mode: vertical-rl;
+    width:50%;
+}
+
+.ver-lr {
+    writing-mode: vertical-lr;
+    width:50%;
+}
